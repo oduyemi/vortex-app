@@ -1,0 +1,42 @@
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body{
+  overflow-x: hidden;
+}
+
+#root{
+  height:100%;
+}
+
+.App{
+  height:100vh;
+  background-color: #ffffff;
+  color: #000000;
+}
+
+.banner{
+  position: absolute;
+  top:-5%;
+  left: 22%
+}
+
+.form-data{
+  position: absolute;
+  bottom: 36%;
+  left: 40%;
+}
+
+
+
+
+
+@media screen and (max-width: 950px){
+  .banner{
+    position: absolute;
+    left: 11%;
+  }
+}
